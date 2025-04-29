@@ -1,0 +1,5 @@
+title,prompt,schema,solution,hint
+List All Departments,"List department names","departments(id INTEGER, name TEXT)","SELECT name FROM departments;","Use SELECT"
+High Earners,"Find employees earning over 80K","employees(id INTEGER, name TEXT, department_id INTEGER, salary INTEGER)","SELECT name FROM employees WHERE salary > 80000;","Use WHERE"
+Count Per Dept,"Count employees in each department","employees(id INTEGER, name TEXT, department_id INTEGER, salary INTEGER)","SELECT department_id, COUNT(*) FROM employees GROUP BY department_id;","Use COUNT and GROUP BY"
+Join Example,"Join employee names with department names","employees(id INTEGER, name TEXT, department_id INTEGER, salary INTEGER); departments(id INTEGER, name TEXT)","SELECT e.name, d.name FROM employees e JOIN departments d ON e.department_id = d.id;","Use JOIN on department_id"
