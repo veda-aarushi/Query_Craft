@@ -8,12 +8,12 @@ Built to strengthen SQL query skills with an interactive, self-paced, and fun le
 
 ##  Features
 
-- 🔹 Dynamic SQL challenges (randomized, not hardcoded)
-- 🔹 Real-time validation: compares user queries with expected output
-- 🔹 "Next Question" feature for continuous practice
-- 🔹 Beautiful, responsive UI (React + TailwindCSS)
-- 🔹 Backend API powered by Flask, Flask-CORS, SQLAlchemy
-- 🔹 SQLite database for sample data and problems
+🔹 Dynamic SQL challenges (randomized, not hardcoded)
+🔹 Real-time validation: compares user queries with expected output
+🔹 "Next Question" feature for continuous practice
+🔹 Beautiful, responsive UI (React + TailwindCSS)
+🔹 Backend API powered by Flask, Flask-CORS, SQLAlchemy
+🔹 SQLite database for sample data and problems
 
 ---
 
